@@ -8,7 +8,7 @@ from .field import Field
 class StringField(Field):
     """Дескриптор для строковых полей с проверкой минимальной длины."""
 
-    def __init__(self, min_length=0):
+    def __init__(self, min_length:int=0):
         self.min_length = min_length
 
     def validate(self, value):
