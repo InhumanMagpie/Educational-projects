@@ -1,0 +1,23 @@
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+python-*
+venv/
+.venv/
+.env
+.env.local
+*.env.*
+
+# Build/dist
+build/
+dist/
+*.egg-info/
+
+# Project-specific
+.python-version
+uv.lock
+```
